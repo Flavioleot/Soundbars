@@ -27,7 +27,6 @@ class App {
       } else console.log("Invalid credentials");
     } else console.log("You are already logged in");
   }
-
   addSong(
     nameSong,
     idSong,
