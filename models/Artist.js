@@ -1,10 +1,10 @@
 class ModelArtist {
-  constructor(idArtist, nameArtist, songsArtist, album, single) {
+  constructor(idArtist, nameArtist, songs, album, playlist) {
     this.idArtist = idArtist;
     this.nameArtist = nameArtist;
-    this.songsArtist = songsArtist;
-    this.album = album;
-    this.single = single;
+    this.songs = songs;
+    this.playlist;
+    this.album;
   }
 }
 

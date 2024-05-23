@@ -1,8 +1,8 @@
 class ModelPlaylist {
-  constructor(idPlaylist, namePlaylist, songsContained) {
-    this.idPlaylist = null;
-    this.namePlaylist = null;
-    this.songsContained = null;
+  constructor(idPlaylist, namePlaylist, songs) {
+    this.idPlaylist = Math.random();
+    this.namePlaylist = namePlaylist;
+    this.songs = [];
   }
 }
 
