@@ -8,9 +8,13 @@ class ModelSong {
     performed,
     feat,
     writer,
-    producer
+    producer,
+    year,
+    duration,
+    title,
+    idArtist
   ) {
-    this.idSong = idSong;
+    this.idSong = Math.random();
     this.nameSong = nameSong;
     this.source = source;
     this.feat = feat;
@@ -19,6 +23,10 @@ class ModelSong {
     this.performed = performed;
     this.artist = artist;
     this.genre = genre;
+    this.year = year;
+    this.duration = duration;
+    this.title = title;
+    this.idArtist = Math.random();
   }
 }
 
